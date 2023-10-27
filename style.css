@@ -1,0 +1,99 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Gabarito&family=Nunito:wght@200&family=PT+Sans:ital@1&family=Roboto:wght@700&display=swap');
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+   
+}
+
+body{
+    height: 100dvh;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: url('https://images.ctfassets.net/hrltx12pl8hq/1DauLWsEwcnLf4NpCUMxxZ/85290d98239ff0bbee9803932249c444/weather-shutterstock_1716559711.jpg?fit=fill&w=1024&h=683&fm=webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Baloo Bhaijaan 2', sans-serif;
+    
+    
+}
+
+.mainContainer{
+    height: 80%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* background-color: white; */
+}
+.searchbar{
+    height: 10%;
+    /* border: 2px solid red ; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+#input{
+    width: 52%;
+    height: 79%;
+    margin-right: 2%;
+    padding-left: 1%;
+    font-size: 1.5rem;
+    border-radius: 3pc
+}
+
+#button{
+    width: 25%;
+    height: 79%;
+    cursor: pointer;
+    border-radius: 3pc;
+    font-size: 1.5rem;
+    background: linear-gradient(direction, color-stop1, color-stop2, ...);
+    
+  
+}
+.displaybox{
+    /* background-color: white; */
+    height: 60%;
+    width: 100%;
+    border-radius: 5vh;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Anton', sans-serif;
+    box-shadow: rgba(248, 248, 248, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    /* background-image: url('https://t3.ftcdn.net/jpg/01/39/58/12/240_F_139581283_DuXrVeUTLcfLMemlcEreSxMhsv2OCBtF.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient(rgb(170, 135, 240), rgb(186, 241, 151));
+ 
+}
+
+.box{
+    width: 80%;
+    height: 33%;
+    display: flex;
+    align-items: center;
+}
+
+#box1 , #box3{
+    justify-content: space-between;
+}
+
+#box2{
+    width: 30%;
+    justify-content: space-between;
+    font-size: 4rem;
+}
